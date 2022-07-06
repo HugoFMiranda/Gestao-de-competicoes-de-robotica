@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Isep Grand Prix</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/Account-setting-or-edit-profile.css">
+    <link rel="stylesheet" href="assets/css/Footer-with-social-media-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/Ludens-Users---25-After-Register.css">
+    <link rel="stylesheet" href="assets/css/Multiple-Input-Select-Pills.css">
+    <link rel="stylesheet" href="assets/css/Navbar-Right-Links-Dark.css">
+    <link rel="stylesheet" href="assets/css/Off-Canvas-Sidebar-Drawer-Navbar.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Registration-Form.css">
+    <link rel="stylesheet" href="assets/css/Pricing-Centered.css">
+    <link rel="stylesheet" href="assets/css/Simple-Slider.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Team.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-md bg-dark py-3" style="height: 71px;">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="index.html"><span class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon" style="width: 40px;height: 40px;margin-left: -80px;"><i class="fas fa-car"></i></span><span class="fs-4 fw-light text-center text-info" data-bs-toggle="tooltip" data-bss-tooltip="">ISEP GRAND PRIX</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-5"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-5">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="d-flex d-lg-flex d-xl-flex flex-row justify-content-lg-center align-items-lg-center justify-content-xl-center" style="height: 100%;">
+        <nav class="navbar navbar-dark navbar-expand bg-secondary text-center d-xl-flex justify-content-xl-center align-items-xl-start off-canvas" data-right-drawer="0" data-open-drawer="1" style="width: 144px;height: 800px;">
+            <div class="container-fluid flex-column">
+                <ul class="navbar-nav flex-column drawer-menu">
+                    <li class="nav-item"><a class="nav-link" href="CriarCompeticao.html" style="margin-top: 10px;">Criar competição</a></li>
+                    <li class="nav-item"><a class="nav-link" href="VerCompeticao.html" style="margin-top: 10px;">Visualizar competições</a><a class="nav-link" href="VerJuris.html" style="margin-top: 10px;">Visualizar júris</a><a class="nav-link" href="VerEquipas.html" style="margin-top: 10px;">Visualizar equipas</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="d-lg-flex flex-column justify-content-lg-center align-items-lg-center" style="width: 100%;"><span class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon" style="width: 40px;height: 40px;margin: 10px;"><i class="fas fa-truck-monster"></i></span>
+            <h1>Criar competição</h1>
+            <form action="index.html" id="registarCompeticao" method="post" enctype="multipart/form-data" role="form" style="width: 265px;border-top: 2px solid var(--bs-blue);margin-top: 0;padding-top: 20px;">
+                <div class="form-group mb-3" style="margin-top: 10px;"><label class="form-label"style="margin-right: 5%">Nome</label><label>
+                    <input name="nomeCompeticao" class="form-control" type="text">
+                </label></div>
+                <div class="form-group mb-3"><label class="form-label" style="margin-right: 5%">Descrição</label><label>
+                    <input name="descCompeticao" class="form-control d-lg-flex" type="text" style="height: 90px;">
+                </label></div>
+                <div class="form-group mb-3"><label class="form-label"style="margin-right: 5%">Número de rondas</label><label>
+                    <input name="nrondasCompeticao" class="form-control" type="number" max="25" min="0">
+                </label></div>
+                <div class="form-group mb-3"><label class="form-label"style="margin-right: 5%">Número de equipas</label><label>
+                    <input name="maxCompeticao" class="form-control" type="number" max="20" min="0">
+                </label></div>
+                <hr style="margin-top: 30px;margin-bottom: 10px;">
+                <div class="form-group mb-3"><button class="btn btn-primary d-block w-100" onclick="registarCompeticao()" type="submit"><strong>Criar competição</strong></button></div>
+            </form>
+        </div>
+    </div>
+    <footer id="footerpad" style="height: 155px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-8 mx-auto">
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item"><a href="#"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a></li>
+                        <li class="list-inline-item"><a href="#"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></a></li>
+                        <li class="list-inline-item"><a href="#"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-instagram fa-stack-1x fa-inverse"></i></span></a></li>
+                        <li class="list-inline-item"><a href="#"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-linkedin fa-stack-1x fa-inverse"></i></span></a></li>
+                    </ul>
+                    <p class="copyright text-muted text-center">Copyright © LSIS 2022 | Web Design by Designer</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/Off-Canvas-Sidebar-Drawer-Navbar.js"></script>
+    <script src="assets/js/Off-Canvas-Sidebar-Drawer-Navbar-1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
+    <script src="https://geodata.solutions/includes/countrystate.js"></script>
+    <script src="assets/js/Simple-Slider.js"></script>
+    <script src="assets/js/CriarCompeticao.js"></script>
+</body>
+
+</html>

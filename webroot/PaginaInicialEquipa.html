@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Isep Grand Prix</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/Account-setting-or-edit-profile.css">
+    <link rel="stylesheet" href="assets/css/Footer-with-social-media-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/Ludens-Users---25-After-Register.css">
+    <link rel="stylesheet" href="assets/css/Multiple-Input-Select-Pills.css">
+    <link rel="stylesheet" href="assets/css/Navbar-Right-Links-Dark.css">
+    <link rel="stylesheet" href="assets/css/Off-Canvas-Sidebar-Drawer-Navbar.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Registration-Form.css">
+    <link rel="stylesheet" href="assets/css/Pricing-Centered.css">
+    <link rel="stylesheet" href="assets/css/Simple-Slider.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Team.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-md bg-dark py-3" style="height: 71px;">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="index.html"><span class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon" style="width: 40px;height: 40px;margin-left: -80px;"><i class="fas fa-car"></i></span><span class="fs-4 fw-light text-center text-info" data-bs-toggle="tooltip" data-bss-tooltip="">ISEP GRAND PRIX</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-5"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-5">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="d-lg-flex d-xl-flex flex-row justify-content-lg-center align-items-lg-center justify-content-xl-center">
+        <nav class="navbar navbar-dark navbar-expand bg-secondary text-center d-xl-flex justify-content-xl-center align-items-xl-start off-canvas" data-right-drawer="0" data-open-drawer="1" style="width: 144px;height: 636px;">
+            <div class="container-fluid flex-column">
+                <ul class="navbar-nav flex-column drawer-menu">
+                    <li class="nav-item"><a class="nav-link" href="RegistoRobo.html" style="margin-top: 10px;">Registar robô</a></li>
+                    <li class="nav-item"><a class="nav-link" href="SeusRobos.html" style="margin-top: 10px;">Seus robôs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="PaginaEquipa.html" style="margin-top: 10px;">Equipa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="VerRondas.html" style="margin-top: 10px;">Competição</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container py-4 py-xl-5">
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col" style="width: 50%;height: 500px;"><img alt="" class="rounded w-100 h-100 fit-cover" data-bss-hover-animate="pulse" style="min-height: 300px;" src="assets/img/equipa.jpg"></div>
+                <div class="col d-flex flex-column justify-content-center justify-content-xl-center align-items-xl-start p-4" class="funcionalidades" style="height: 500px;">
+                    <div class="d-xl-flex justify-content-center align-items-center justify-content-xl-center" data-bss-hover-animate="pulse" onclick="abrirRegistoRobo()" style="margin-right: 0;margin-bottom: 30px;"><span class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon" style="width: 40px;height: 40px;"><i class="fas fa-screwdriver"></i></span>
+                        <h1 style="margin-left: 10px;">Registe os seus robôs</h1>
+                    </div>
+                    <div class="d-xl-flex justify-content-center align-items-center justify-content-xl-center" data-bss-hover-animate="pulse" onclick="abrirSeusRobos()" ><span class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon" style="width: 40px;height: 40px;"><i class="fas fa-robot"></i></span>
+                        <h1 style="margin-left: 10px;">Visualize os seus robôs e as suas estatísticas</h1>
+                    </div>
+                    <div class="d-xl-flex justify-content-center align-items-center justify-content-xl-end" data-bss-hover-animate="pulse" onclick="abrirPaginaEquipa()" style="margin-top: 30px;"><span class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon" style="width: 40px;height: 40px;"><i class="fas fa-user-friends"></i></span>
+                        <h1 style="margin-left: 10px;">Veja a sua equipa</h1>
+                    </div>
+                    <div class="d-xl-flex justify-content-center align-items-center justify-content-xl-end" data-bss-hover-animate="pulse" onclick="abrirCompeticoes()" style="margin-top: 30px;"><span class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon" style="width: 40px;height: 40px;"><i class="fas fa-award"></i></span>
+                        <h1 style="margin-left: 10px;">Veja as competições</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footerpad" style="height: 155px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-8 mx-auto">
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item"><a href="#"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a></li>
+                        <li class="list-inline-item"><a href="#"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></a></li>
+                        <li class="list-inline-item"><a href="#"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-instagram fa-stack-1x fa-inverse"></i></span></a></li>
+                        <li class="list-inline-item"><a href="#"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-linkedin fa-stack-1x fa-inverse"></i></span></a></li>
+                    </ul>
+                    <p class="copyright text-muted text-center">Copyright © LSIS 2022 | Web Design by Designer</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/Off-Canvas-Sidebar-Drawer-Navbar.js"></script>
+    <script src="assets/js/Off-Canvas-Sidebar-Drawer-Navbar-1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
+    <script src="https://geodata.solutions/includes/countrystate.js"></script>
+    <script src="assets/js/Simple-Slider.js"></script>
+    <script src="assets/js/PaginaInicialEquipa.js"></script>
+</body>
+
+</html>
