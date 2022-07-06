@@ -5,12 +5,12 @@ package keys;
  */
 public class keys {
 
-    // ALTERAR PARA AS VOSSAS VARIAVEIS
+    // ALTERAR
 
-    public static final String DBNAME = "2022sinf1_012";
-    public static final String URL = "jdbc:mysql://ctesp.dei.isep.ipp.pt:3306/" + DBNAME;
-    public static final String USER = "2022sinf1_012";
-    public static final String PASS = "Qg40530dAS)";
-    public static final String chat_id = "-707010476";
-    public static final String Apikey = "5475266230:AAHyrItxfrLndz-sMwL9E9CH0j14g30ajYs";
+    public static final String DBNAME = "";
+    public static final String URL = "" + DBNAME;
+    public static final String USER = "";
+    public static final String PASS = "";
+    public static final String chat_id = "";
+    public static final String Apikey = "";
 }
